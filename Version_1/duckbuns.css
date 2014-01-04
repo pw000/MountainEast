@@ -1,0 +1,47 @@
+html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+}
+
+#directions-panel {
+	width: 50%;
+	height: 100%;
+}
+ 
+#map-canvas {
+	float:left;
+	top: -5px;
+	width:50%;
+	height:50%;
+}
+
+#calendar {
+	float:left;
+	width:50%;
+	height:50%;
+}
+
+.hide {
+	display:none;
+}
+
+.show {
+	display:inline;
+}
+
+
+#target, #target2, #waypt1, #waypt2, #waypt3, #waypt4, #waypt5, #waypt6, #waypt7, #waypt8 {
+        width: 20%;
+        min-width: 200px;
+}
+
+.date {
+	width: 20%;
+	min-width: 100px;
+}
+
+.time {
+	width: 15%;
+	min-width: 100px;	
+}

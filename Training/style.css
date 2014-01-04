@@ -1,0 +1,36 @@
+html {
+	height: 100% 
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0 
+}
+
+header {
+	
+}
+
+section {
+	height:100%
+}
+
+aside {
+	height:50%;
+	width:100%
+}
+
+#map-canvas {
+	top:0px;
+	height:100%
+}
+
+#target {
+        width: 345px;
+}
+
+#panel {
+        background-color: #fff;
+        padding: 5px;
+}

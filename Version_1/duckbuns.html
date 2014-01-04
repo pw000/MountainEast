@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="duckbuns.css"/>
+    <title>Duckbuns travel</title>
+    <link href='../fullcalendar-1.6.4/fullcalendar/fullcalendar.css' rel='stylesheet' />
+    <link href='../fullcalendar-1.6.4/fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
+    <script src='../fullcalendar-1.6.4/lib/jquery.min.js'></script>
+    <script src='../fullcalendar-1.6.4/lib/jquery-ui.custom.min.js'></script>
+    <script src='../fullcalendar-1.6.4/fullcalendar/fullcalendar.min.js'></script>
+    <script src=https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places></script>
+    <script src="duckbuns.js"></script>
+    </head>
+  <body>
+    <div id="map-canvas"></div>
+    <div id="calendar"></div>
+    <div id="directions-panel">
+      <button onclick="getD()">Show Route</button>
+      <button onclick="addwaypt()">+ Waypoint</button>
+      <button onclick="dltwaypt()">- Waypoint</button>
+      <button onclick="updateCal()">Sync to Calendar</button>
+      </br>
+      	<input id="target" type="text" placeholder="Start"><input class="date" id="startdate" type="date"/><input class="time" id="starttime" type="time"/><input class="time" id="starttime_f" type="time"/>
+	<span id="waypt1span" class="hide"><input id="waypt1" type="text"><input class="date" id="waypt1date" type="date"/><input class="time" id="waypt1time" type="time"/><input class="time" id="waypt1time_f" type="time"/></br></span>
+	<span id="waypt2span" class="hide"><input id="waypt2" type="text"><input class="date" id="waypt2date" type="date"/><input class="time" id="waypt2time" type="time"/><input class="time" id="waypt2time_f" type="time"/></br></span>
+	<span id="waypt3span" class="hide"><input id="waypt3" type="text"><input class="date" id="waypt3date" type="date"/><input class="time" id="waypt3time" type="time"/><input class="time" id="waypt3time_f" type="time"/></br></span>
+	<span id="waypt4span" class="hide"><input id="waypt4" type="text"><input class="date" id="waypt4date" type="date"/><input class="time" id="waypt4time" type="time"/><input class="time" id="waypt4time_f" type="time"/></br></span>
+	<span id="waypt5span" class="hide"><input id="waypt5" type="text"><input class="date" id="waypt5date" type="date"/><input class="time" id="waypt5time" type="time"/><input class="time" id="waypt5time_f" type="time"/></br></span>
+	<span id="waypt6span" class="hide"><input id="waypt6" type="text"><input class="date" id="waypt6date" type="date"/><input class="time" id="waypt6time" type="time"/><input class="time" id="waypt6time_f" type="time"/></br></span>
+	<span id="waypt7span" class="hide"><input id="waypt7" type="text"><input class="date" id="waypt7date" type="date"/><input class="time" id="waypt7time" type="time"/><input class="time" id="waypt7time_f" type="time"/></br></span>
+	<span id="waypt8span" class="hide"><input id="waypt8" type="text"><input class="date" id="waypt8date" type="date"/><input class="time" id="waypt8time" type="time"/><input class="time" id="waypt8time_f" type="time"/></br></span>
+	<input id="target2" type="text" placeholder="End"><input class="date" id="enddate" type="date"/><input class="time" id="endtime" type="time"/><input class="time" id="endtime_f" type="time"/>
+      </div>
+    </body>
+</html>

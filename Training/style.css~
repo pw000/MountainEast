@@ -1,0 +1,29 @@
+h1
+{
+	color:blue;
+	border:3px blue double;
+	border-radius:10px;
+	box-shadow:6px 6px 0px black inset;
+}
+
+.titre2
+{
+	color:red;
+}
+
+h2
+{
+	text-decoration:none;
+}
+
+body
+{
+	background-color:yellow;
+	color:maroon;
+
+}
+
+mark:hover
+{
+	background-color:red;
+}
